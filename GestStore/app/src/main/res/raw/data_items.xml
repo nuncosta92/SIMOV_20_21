@@ -1,0 +1,5 @@
+<sql>
+    <statement> VALUES(1,'Item 1 XPTO XXXX', '123456', 3.0, 'm')</statement>
+    <statement> VALUES(2,'Item 2 XXX', '123456', 3.0, 'kg')</statement>
+    <statement> VALUES(3,'Item 3', '123456', 3.0, 'cx')</statement>
+</sql>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "43714018189",
+    "firebase_url": "https://geststore-isep-default-rtdb.firebaseio.com",
+    "project_id": "geststore-isep",
+    "storage_bucket": "geststore-isep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43714018189:android:151925f979e2eb18fcdbc4",
+        "android_client_info": {
+          "package_name": "isep.simov.project.simov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43714018189-t7t86nmhgn7mk9shse0pfjhj1e6s8raq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2fc3aMqPN6WpwlC72HWyyR1qfi7LKJqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43714018189-t7t86nmhgn7mk9shse0pfjhj1e6s8raq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

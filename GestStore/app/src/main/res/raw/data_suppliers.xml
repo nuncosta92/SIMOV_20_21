@@ -1,0 +1,5 @@
+<sql>
+    <statement> VALUES(1,'Fornecedore XPTO','Rua das Flores25', 'Carvalhido', 'Porto', 'xpto@fornecedore.pt', '221458796', '963214587', '90Dias')</statement>
+    <statement> VALUES(2,'Fornecedore XXXX','Rua das Flores 25, R/C ESQ', 'VNGaia', 'Porto', 'xpto@fornecedore.pt', '221458796', '963214587', '60Dias')</statement>
+    <statement> VALUES(3,'Fornecedore 2','Rua das Torres', 'Carvalhido', 'Famalicão', 'xpto@fornecedore.pt', '221458796', '963214587', '30Dias')</statement>
+</sql>

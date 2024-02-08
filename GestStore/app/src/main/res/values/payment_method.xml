@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payment_array">
+        <item>30 dias</item>
+        <item>60 dias</item>
+        <item>90 dias</item>
+        <item>Cheque</item>
+        <item>Transferência Bancária</item>
+    </string-array>
+</resources>

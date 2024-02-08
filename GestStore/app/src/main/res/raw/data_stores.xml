@@ -1,0 +1,12 @@
+<sql>
+    <statement> VALUES(1,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(2,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(3,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(4,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(5,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(6,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(7,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(8,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(9,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+    <statement> VALUES(10,'Loja Gaia','Rua Principal Canidelo 25', 'Canidelo', 'V.N. Gaia', 'email_loja_gaia@loja.pt', '223654789', '912547896')</statement>
+</sql>

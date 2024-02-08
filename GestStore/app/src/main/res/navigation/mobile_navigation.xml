@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="isep.simov.project.simov.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_stores"
+        android:name="isep.simov.project.simov.ui.stores.StoresList"
+        android:label="@string/menu_stores"
+        tools:layout="@layout/fragment_stores" />
+
+    <activity
+        android:id="@+id/nav_store_management"
+        android:name="isep.simov.project.simov.ui.store_management.StoreManagementsList"
+        android:label="@string/menu_store_management"
+        tools:layout="@layout/fragment_store_management" />
+    <activity
+        android:id="@+id/nav_items"
+        android:name="isep.simov.project.simov.ui.items.ItemsList"
+        android:label="@string/menu_items"
+        tools:layout="@layout/fragment_items"/>
+
+    <activity
+        android:id="@+id/nav_suppliers"
+        android:name="isep.simov.project.simov.ui.suppliers.SuppliersList"
+        android:label="@string/menu_suppliers"
+        tools:layout="@layout/fragment_suppliers" />
+
+    <activity
+        android:id="@+id/nav_orders"
+        android:name="isep.simov.project.simov.ui.orders.OrdersList"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_orders" />
+</navigation>

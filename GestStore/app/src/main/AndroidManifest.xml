@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="isep.simov.project.simov">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="com.example.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.example.permission.MAPS_RECEIVE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GestStore">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDcijNJv2F2F5fNfqCfJN6jMTi1ygI5m6M"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".ui.login.Login"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.items.ItemsList"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".ui.items.ItemsDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.items.ItemsCreate"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.stores.StoresList"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.stores.StoresDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.stores.StoresCreate"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.suppliers.SuppliersList"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.suppliers.SuppliersDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.suppliers.SuppliersCreate"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.store_management.StoreManagementsDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.store_management.StoreManagementsList"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.store_management.StoresManagementCreate"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.orders.OrdersDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.orders.OrdersList"
+            android:theme="@style/Theme.GestStore.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.orders.OrdersCreate"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
